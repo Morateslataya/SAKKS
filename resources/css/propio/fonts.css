@@ -1,0 +1,29 @@
+@font-face{
+  font-family: SFProDisplay-Light;
+  src: url('../../fonts/SFProDisplay-Light.ttf') format("truetype");
+  font-weight: light;
+}
+
+@font-face{
+  font-family: SFProDisplay-Regular;
+  src: url('../../fonts/SFProDisplay-Regular.ttf') format("truetype");
+  /* font-weight: regular; */
+}
+
+@font-face{
+  font-family: SFProDisplay-Medium;
+  src: url('../../fonts/SFProDisplay-Medium.ttf') format("truetype");
+  font-weight: light;
+}
+
+@font-face{
+  font-family: SFProDisplay-Bold;
+  src: url('../../fonts/SFProDisplay-Bold.ttf') format("truetype");
+  font-weight: light;
+}
+
+@font-face{
+  font-family: SFProDisplay-Semibold;
+  src: url('../../fonts/SFProDisplay-Semibold.ttf') format("truetype");
+  font-weight: light;
+}

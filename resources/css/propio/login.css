@@ -1,0 +1,376 @@
+body{
+    background-color: #161617!important;
+    font-family: SFProDisplay-Regular;
+    font-weight: normal!important;
+}
+
+/***** Sweet Alerts *****/
+.swal-modal{
+    background-color: #272727ce!important;
+    backdrop-filter: blur(10px)!important;
+    color: #FFF!important;
+}
+
+.swal-button--confirm {
+    background: linear-gradient(90deg, rgba(19,172,227,1) 0%, rgba(50,96,213,1) 100%)!important;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 24px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.swal-button--cancel{
+    background-color: #c2daff!important;
+}
+
+.swal-icon--success:before {
+    background: #fff0!important;
+}
+
+.swal-icon--success:after {
+    background: #fff0!important;  
+}
+
+.swal-icon--success__hide-corners {
+    background: #fff0!important;  
+}
+
+.swal-title{
+    color: #FFF!important;
+    font-weight: normal!important;
+    font-family: SFProDisplay-Bold;
+}
+
+.swal-text{
+    color: rgba(255, 255, 255, 0.75)!important;
+}
+/***************************************/
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+    }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 650px;
+    }
+}
+
+.md-form label {
+    color: #ffffff;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+/***** G E N E R A L *****/
+.invisible{
+    padding: 0px!important;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: SFProDisplay-Bold!important;
+    color: #FFF;
+}
+
+.card{
+    border: 0px !important;
+}
+/*** Modals ***/
+.modal-content {
+    background-color: #1b1b1bce!important;
+    backdrop-filter: blur(6px)!important;
+    border-radius: 1.3rem!important;
+}
+
+/*** Botones en la tabla ***/
+.btn-eliminar{
+    border-radius: 73px;
+    background: linear-gradient(276deg, #ea0e49, #f85f85);
+    box-shadow:  2px 2px 4px #de0d41b3, 
+                -2px -2px 4px #ff0f53b3;
+    border: 0px!important;
+    margin-left: 0.5rem!important;
+    width: 33px;
+    height: 33px;
+  }
+  
+  .btn-editar{
+    border-radius: 73px;
+    background: linear-gradient(145deg, #ffb81b, #d89b17);
+    box-shadow:  2px 2px 4px #d89b17e7, 
+               -2px -2px 4px #ffbd1ce7;
+    border: 0px!important;
+    width: 33px;
+    height: 33px;
+  }
+  
+  /* Color del icono */
+  .btn-eliminar i, .btn-editar i{
+    color: rgba(255, 255, 255, 0.80);
+  }
+  
+  /* Efecto de cuando el puntero pasa encima del botón */
+  .btn-eliminar:hover{
+    border-radius: 73px;
+    background: linear-gradient(276deg, #ea0e49, #f85f85);
+    box-shadow:  1px 1px 2px #de0d41b3, 
+                -1px -1px 2px #ff0f53b3;
+    border: 0px!important;
+    margin-left: 0.5rem!important;
+  }
+  
+  .btn-editar:hover{
+    border-radius: 73px;
+    background: linear-gradient(145deg, #ffb81b, #d89b17);
+    box-shadow:  1px 1px 2px #d89b17, 
+               -1px -1px 2px #ffbd1c;
+    border: 0px!important;
+  }
+  
+/*** N A V B A R ***/
+nav{
+    background-color: #2E2E2E!important;
+    color: #F2F2F2!important;
+}
+
+.navbar-brand{
+    font-family: SFProDisplay-Bold;
+    color: #ae93ff!important;
+}
+.dropdown-menu{
+    background-color: #2a2a2db3!important;
+    backdrop-filter: blur(6px)!important;
+}
+
+.dropdown-menu a{
+    color: #BFBFBF!important;
+}
+
+.active{
+    font-family: SFProDisplay-Bold;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*** Botones ***/
+/* Botón principal */
+.btn-principal{
+    border-radius: 0.6rem!important;
+    border: 0px !important;
+    padding: 0.6rem 2rem!important;
+    font-size: 1rem!important;
+    background: linear-gradient(-128deg, #a148ff 0%, #4f16f0);
+    box-shadow: -7px 7px 11px 2px #5016f04d, 7px 7px 11px 2px #a048ff4d;
+    font-family: SFProDisplay-Medium!important;
+    color: #FFF;
+    text-transform: none!important;
+}
+
+/* Botón principal:hover */
+.btn-principal:hover{
+    border-radius: 0.6rem!important;
+    border: 0px !important;
+    background: linear-gradient(-128deg, #a148ff 0%, #4f16f0);
+    box-shadow: -3px 3px 7px 2px #5016f066, 3px 3px 7px 2px #a048ff66;
+    color: #FFF;
+}
+
+/* Botón negro */
+.btn-negro{
+    border-radius: 0.6rem!important;
+    border: 0px !important;
+    padding: 0.6rem 2rem!important;
+    font-size: 1rem!important;
+    background-color: #2E2E2E;
+    box-shadow: 0px 0px 0px 0px !important;
+    font-family: SFProDisplay-Medium!important;
+    color: #FFF;
+    text-transform: none!important;
+}
+
+.btn-negro:hover{
+    background-color: #1f1f1f;
+    box-shadow: 0px 0px 0px 0px !important;
+    font-family: SFProDisplay-Medium!important;
+    color: #ffffffd9;
+    text-transform: none!important;
+}
+
+/* Botón "Aceptar" */
+.btn-aceptar{
+    border-radius: 0.6rem!important;
+    border: 0px !important;
+    padding: 0.6rem 2rem!important;
+    font-size: 1rem!important;
+    background: linear-gradient(-128deg, #11A8FF 0%, #1141FF);
+    box-shadow: -7px 7px 11px 2px #11A8FF4d, 7px 7px 11px 2px #1141FF4d;
+    font-family: SFProDisplay-Medium!important;
+    color: #FFF;
+    text-transform: none!important;
+}
+
+/* Botón "guardar" */
+.btn-guardar{
+    border-radius: 0.6rem!important;
+    border: 0px !important;
+    padding: 0.6rem 2rem!important;
+    font-size: 1rem!important;
+    background: linear-gradient(-128deg, #B4D62D 0%, #1FB04B);
+    box-shadow: -7px 7px 11px 2px #B4D62D4d, 7px 7px 11px 2px #1FB04B4d;
+    font-family: SFProDisplay-Medium!important;
+    color: #FFF;
+    text-transform: none!important;
+}
+
+/* Botón "Alerta" */
+.btn-alerta{
+    border-radius: 0.6rem!important;
+    border: 0px !important;
+    padding: 0.6rem 2rem!important;
+    font-size: 1rem!important;
+    background: linear-gradient(-128deg, #EDCF37 0%, #F2A200);
+    box-shadow: -7px 7px 11px 2px #EDCF374d, 7px 7px 11px 2px #F2A2004d;
+    font-family: SFProDisplay-Medium!important;
+    color: #FFF;
+    text-transform: none!important;
+}
+
+/***** L O G I N *****/
+/** Fondo **/
+.landing-page-login{
+    background-image: url('../../../resources/img/login/Fondo login@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/** Tarjetas **/
+#sesion-form .card-body, .carta-invisible{
+    padding: 7rem 4rem;
+}
+
+#register-form .card-body{
+    padding: 3rem 3rem;
+}
+
+.carta-login{
+    background-color: #1F1F21;
+    box-shadow: 0px 0px 8px 4px #00000080;
+    color: #8D8D90;
+    border-radius: 1.5rem;
+}
+
+.carta-invisible{
+    background-color: #ffffff00;
+    box-shadow: 0px 0px 0px 0px;
+    color: #8D8D90;
+}
+
+.titulo-login{
+    font-family: SFProDisplay-Bold;
+    color: #F9FAFF;
+    font-size: 2.2rem;
+}
+
+/* Inputs */
+.input-login{
+    border-radius: 2rem!important;
+    border: 0px!important;
+    padding-left: 0.5rem!important;
+    box-shadow: inset -3px -3px 4px #2b2b2e,
+                inset 2px 2px 3px #0c0c0c !important;
+}
+
+.input-login:focus{    
+    box-shadow: inset -4px -4px 3px #2b2b2e,
+                inset 3px 3px 3px #0c0c0c !important;
+}
+
+/* Input cuando lo llena 
+   automáticamente el usuario 
+*/
+input:-internal-autofill-selected{
+    border-radius: 1rem!important;
+    background-color: #1D1D1D!important;
+}
+
+/***** M A I N *****/
+#tarjeta-main{
+    background-color: #fff0!important;
+    box-shadow: 0px 0px 0px;
+}
+
+#titulo-main{
+    color: #BFBFBF!important;
+}
+
+#text-main{
+    color: #676767!important;
+}
+
+/***** F A C T U R A C I Ó N *****/
+.fila{
+    box-shadow: 0px 6px 12px #0c0c0c!important;
+    border-radius: 0rem 0rem 2rem 2rem!important;
+}
+
+.input-factura{
+    border-radius: 2rem!important;
+    background-color: #2E2E2E!important;
+    color: #B3B3B3!important;
+    border: 0px!important;
+}
+
+select{
+    border-radius: 2rem!important;
+    background-color: #2E2E2E!important;
+    color: #B3B3B3!important;
+    border: 0px!important;
+}
+
+/*** Tabla ***/
+.table{
+    color: #8D8D90!important;
+}
+
+thead{
+    font-family: SFProDisplay-Bold!important;
+    color: #d4d4d4!important;
+}
+
+.table-bordered{
+    border: 1px #343434!important;
+}
+.table thead th{
+    border: 1.5px #343434!important;
+}
+
+.table-bordered {
+    border: 2px solid #343434 !important;
+}
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #1F1F21!important;
+}
